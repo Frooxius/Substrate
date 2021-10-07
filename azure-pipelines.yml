@@ -30,7 +30,7 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'pack'
-    packagesToPack: '**\Substrate (NET4).csproj'
+    packagesToPack: '**\Substrate (NET2).csproj'
     configuration: 'Release'
     versioningScheme: 'byPrereleaseNumber'
     majorVersion: '1'
